@@ -41,7 +41,8 @@ class JobOffertsController extends Controller
      */
     public function store(Request $request)
     {
-        //
+          $offert = Offerts::findOrFail($id);
+        return view('offerts.details', compact('offert'));
     }
 
     /**
