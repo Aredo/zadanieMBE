@@ -52,7 +52,8 @@ class JobOffertsController extends Controller
      */
     public function show($id)
     {
-        //
+        $offert = Offerts::findOrFail($id);
+        return view('offerts.details', compact('offert'));
     }
 
     /**
