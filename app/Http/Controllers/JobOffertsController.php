@@ -64,6 +64,7 @@ class JobOffertsController extends Controller
     {
 
 
+        
     }
 
     /**
