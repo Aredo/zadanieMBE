@@ -19,6 +19,7 @@ class JobOffertsController extends Controller
 
         $offerts = $jobOffertsService->getOfferts();
 
+
         return view('offerts.list',compact('offerts'));
     }
 
@@ -32,6 +33,26 @@ class JobOffertsController extends Controller
         //
     }
 
+    public function testStore(JobOffertsServiceInterface $jobOffertsService){
+
+        $offerts = $jobOffertsService->getOfferts();
+
+        foreach ($offerts as $offert) {
+
+
+            Offerts::create([
+                'admin_name'=>$offert->admin_name,
+                'title'=>$offert->content->title
+
+            ]);
+
+
+
+        }
+
+        return back();
+
+    }
 
     /**
      * Store a newly created resource in storage.
@@ -41,6 +62,7 @@ class JobOffertsController extends Controller
      */
     public function store(Request $request)
     {
+
 
     }
 

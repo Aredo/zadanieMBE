@@ -15,3 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::resource('offerts', 'JobOffertsController');
+Route::get('offertsSave','JobOffertsController@testStore');

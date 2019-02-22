@@ -1,14 +1,14 @@
 <p>test</p>
 
-{{--{{$offerts->status}}--}}
+
     @foreach($offerts as $ofert)
-        @for($i=0;$i<5;$i++)
 
 
-    <p>{{$ofert[$i]['id']}}</p>
-    <p>{{$ofert[$i]['admin_name']}}</p>
-    <p>{{$ofert[$i]['content']['title']}}</p>
+
+    <p>{{$ofert->id}}</p>
+    <p>{{$ofert->admin_name}}</p>
+    <p>{{$ofert->content->title}}</p>
 
 
-        @endfor
+
     @endforeach

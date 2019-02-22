@@ -11,5 +11,5 @@ interface JobOffertsServiceInterface
 {
 
     public function getOfferts();
-    public function storeOfferts();
+
 }

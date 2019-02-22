@@ -21,29 +21,10 @@ class JobOffertsService implements JobOffertsServiceInterface
     {
         $client = new \GuzzleHttp\Client();
         $data = $client->request('GET', 'https://demo.appmanager.pl/api/v1/ads');
-        $offerts = json_decode($data->getBody()->getContents(),true);
-        return $offerts;
+        $offerts = json_decode($data->getBody()->getContents());
+        return $offerts->data;
     }
 
-    //test data storage to the database for 5 offerts
-    public function storeOfferts()
-    {
-        $client = new \GuzzleHttp\Client();
-        $data = $client->request('GET', 'https://demo.appmanager.pl/api/v1/ads');
-        $offerts = json_decode($data->getBody()->getContents(),true);
 
-        foreach ($offerts as $offert) {
-            for ($i=0;$i<5;$i++){
-                if ($offert[$i]['id']){
-                    Offerts::create([
-                        'admin_name'=>$offert[$i]['admin_name'],
-                        'title'=>$offert[$i]['content']['title']
 
-                    ]);
-
-                }
-            }
-        }
-
-    }
 }
