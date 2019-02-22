@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26b2b77e-1870-46a0-b0da-67d2b8246e6c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/JobOffertsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/JobOffertsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Services/JobOffertsService.php" afterPath="$PROJECT_DIR$/app/Services/JobOffertsService.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Services/JobOffertsServiceInterface.php" afterPath="$PROJECT_DIR$/app/Services/JobOffertsServiceInterface.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/offerts/list.blade.php" afterPath="$PROJECT_DIR$/resources/views/offerts/list.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
-    </list>
+    <list default="true" id="26b2b77e-1870-46a0-b0da-67d2b8246e6c" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,17 +11,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="JobOffertsService.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="JobOffertsService.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Services/JobOffertsService.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="408">
+              <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JobOffertsController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JobOffertsController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/JobOffertsController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="453">
@@ -44,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/resources/views/offerts/list.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -126,10 +119,10 @@
         <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
         <option value="$PROJECT_DIR$/resources/views/offerts/test.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/JobOffertsController.php" />
         <option value="$PROJECT_DIR$/app/Services/JobOffertsService.php" />
         <option value="$PROJECT_DIR$/app/Services/JobOffertsServiceInterface.php" />
         <option value="$PROJECT_DIR$/resources/views/offerts/list.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/JobOffertsController.php" />
       </list>
     </option>
   </component>
@@ -274,12 +267,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550741556692</updated>
-      <workItem from="1550741557977" duration="14234000" />
+      <workItem from="1550741557977" duration="14504000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14234000" />
+    <option name="totallyTimeSpent" value="14504000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -462,18 +455,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Services/JobOffertsService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="25" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/offerts/list.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -485,6 +470,14 @@
           <folding>
             <element signature="e#40#56#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Services/JobOffertsService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="29" column="1" lean-forward="true" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
